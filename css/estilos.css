@@ -153,3 +153,15 @@ figure.portrait img { max-width: 360px; }
 .essay ul + p { margin-top: 32px; }
 .sources { font-size: 13px; color: var(--muted); }
 h2.section-break { margin-top: 72px; padding-top: 32px; border-top: 1px solid #e5e5e5; }
+
+.dispatch { margin-top: 40px; }
+.dispatch h2 { margin-bottom: 2px; }
+.dispatch h2 a { color: var(--text); }
+.dispatch blockquote {
+  margin: 0 0 6px;
+  padding: 10px 16px;
+  border-left: 3px solid #ddd;
+  color: #444;
+  font-style: italic;
+}
+.dispatch + .dispatch { border-top: 1px solid #eee; padding-top: 32px; }
