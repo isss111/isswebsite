@@ -155,7 +155,7 @@ figure.portrait img { max-width: 360px; }
 h2.section-break { margin-top: 72px; padding-top: 32px; border-top: 1px solid #e5e5e5; }
 
 .dispatch { margin-top: 40px; }
-.dispatch h2 { margin-bottom: 2px; }
+.dispatch h2 { margin: 0 0 2px; }
 .dispatch h2 a { color: var(--text); }
 .dispatch blockquote {
   margin: 0 0 6px;
