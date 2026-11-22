@@ -166,3 +166,11 @@ h2.section-break { margin-top: 72px; padding-top: 32px; border-top: 1px solid #e
 .dispatch + .dispatch { border-top: 1px solid #eee; padding-top: 24px; margin-top: 32px; }
 .talks + .talks { margin-top: 40px; }
 .when { color: var(--muted); }
+
+.themis .item { margin: 0 0 18px; }
+.themis .item p { margin: 0 0 4px; }
+.themis .item-title { margin-bottom: 2px; }
+.score { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 7px; border-radius: 10px; margin-left: 6px; }
+.score.s3 { background: #e3f1e6; color: #1e6b33; }
+.score.s2 { background: #fbf0d9; color: #8a5a00; }
+.score.s1 { background: #fbe4e2; color: #9b2c22; }
