@@ -174,3 +174,15 @@ h2.section-break { margin-top: 72px; padding-top: 32px; border-top: 1px solid #e
 .score.s3 { background: #e3f1e6; color: #1e6b33; }
 .score.s2 { background: #fbf0d9; color: #8a5a00; }
 .score.s1 { background: #fbe4e2; color: #9b2c22; }
+
+.callout {
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid var(--link);
+  background: #fafafa;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+.callout p { margin: 0 0 10px; }
+.callout p:last-child { margin-bottom: 0; }
+.callout-score { font-size: 32px; font-weight: 600; line-height: 1.1; }
+.callout-score span { font-size: 18px; color: var(--muted); font-weight: 400; }
